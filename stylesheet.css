@@ -167,21 +167,6 @@ main section article .vorschautext {
 
 
 main section article span {
-	animation: mark 1.5s;
-}
-
-@keyframes mark {
-	50% {
-		background-color: var(--third-color);
-		color: var(--prime-color);
-	}
-	100% {
-		background-color: none;
-		color: var(--second-color);
-	}
-}
-
-main section article span {
 	background-color: var(--third-color);
 	color: var(--prime-color);
 }

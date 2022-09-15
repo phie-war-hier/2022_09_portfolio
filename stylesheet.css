@@ -196,11 +196,11 @@ main footer {
 
 
 @media (min-width: 600px) {
-main footer div {
-	width: 50%;
-	padding: 0 50px 0 0;
+	main footer div {
+		width: 50%;
+		padding: 0 50px 0 0;
+	}
 }
- }
 
 
 img {
@@ -227,7 +227,10 @@ button:focus-visible {
   background-color: var(--fourth-color);
 }
 
-
+.aktiv {
+	background-color: var(--third-color);
+	color: var(--prime-color);
+}
 
 a:link, a:active, a:visited {
   color: var(--third-color);
@@ -279,3 +282,6 @@ input:focus-visible, textarea:focus-visible, button:focus-visible {
 }
 
 
+video {
+	width: 100%;
+}
